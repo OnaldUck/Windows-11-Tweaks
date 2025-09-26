@@ -22,7 +22,7 @@ Windows Registry Editor Version 5.00
 ```
 
 ### AllowInplace
-Erlaube InplaceUpgrade ohne alle Voraussetzungen zu erfüllen
+Erlaube InplaceUpgrade ohne alle Voraussetzungen zu erfüllen.
 
 AllowInplace.reg
 ```
@@ -32,7 +32,7 @@ Windows Registry Editor Version 5.00
 "AllowUpgradesWithUnsupportedTPMOrCPU"=dword:00000001
 ```
 
-## Inplace von Win10 zum Windows 11 LTSC
+## Inplace von Windows 10 zum Windows 11 LTSC
 Die Installation starten, dann die REG-Datei ausführen, dann weiter machen.
 
 Inplace-Win10-to-Win11LTSC.reg
