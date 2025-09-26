@@ -20,9 +20,24 @@ Windows Registry Editor Version 5.00
 "BypassCPUCheck"=dword:00000001
 "BypassDiskCheck"=dword:00000001
 ```
-AllowInplace.reg
+
 ### AllowInplace
+AllowInplace.reg
+```
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup]
 "AllowUpgradesWithUnsupportedTPMOrCPU"=dword:00000001
+```
+
+### Windows 11 ohne Microsoft-Konto einzurichten
+Um Windows 11 ohne Microsoft-Konto einzurichten, drücken Sie während des Einrichtungsprozesses
+`SHIFT + F10`, um eine Eingabeaufforderung zu öffnen, und geben Sie dort `start ms-cxh:localonly` ein, gefolgt von der Eingabetaste, um die Option für ein lokales Konto freizuschalten. 
+
+
+## Reservierten Speicher deaktivieren
+
+```
+dism /Online /Get-ReservedStorageState 
+dism /Online /Set-ReservedStorageState /State:Disabled
+```
