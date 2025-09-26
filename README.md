@@ -2,7 +2,7 @@
 Kleine Sammlung von Kommandos für jeden Tag, die man immer wieder sucht, vor allem jetzt in der Umstellungsphase.
 
 ## Upgrade
-Einschränkungen beseitigen. Am besten die beiden REG-Dateien speichern und in die ISO-Datei integrieren. Dann kann man sie währen des Installationsprozesses aktivieren z.B: `REG IMPORT ByPass.reg` `oder AllowTelemetry.reg`.
+Einschränkungen beseitigen. Am besten die beiden REG-Dateien speichern und in die ISO-Datei integrieren. Dann kann man sie währen des Installationsprozesses aktivieren z.B: `REG IMPORT ByPass.reg` oder `AllowTelemetry.reg`.
 
 ### Bypass TPM, CPU, SecureBoot usw.
 ByPass.reg
@@ -60,6 +60,8 @@ dism /Online /Get-ReservedStorageState
 dism /Online /Set-ReservedStorageState /State:Disabled
 ```
 
+## Empfohlen im Startmenü entfernen
+
 Empfohlen entfernen W11.reg
 ```
 Windows Registry Editor Version 5.00
@@ -74,3 +76,5 @@ Windows Registry Editor Version 5.00
 "IsEducationEnvironment"=dword:00000001
 ```
 
+# Computerschutz deaktivieren #
+`PS1:Disable-ComputerRestore -Drive C:\`
