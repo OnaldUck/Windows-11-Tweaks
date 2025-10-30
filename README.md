@@ -53,6 +53,11 @@ Um Windows 11 ohne Microsoft-Konto einzurichten, drücken Sie während des Einri
 `SHIFT + F10`, um eine Eingabeaufforderung zu öffnen, und geben Sie dort `start ms-cxh:localonly` ein, gefolgt von der Eingabetaste, um die Option für ein lokales Konto freizuschalten. 
 
 # Nach der Installation
+## klassisches Kontextmenu
+```
+reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+```
+
 ## Reservierten Speicher deaktivieren
 
 ```
