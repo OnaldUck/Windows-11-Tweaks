@@ -58,6 +58,11 @@ Um Windows 11 ohne Microsoft-Konto einzurichten, drücken Sie während des Einri
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 ```
 
+## klassisches Druckdialog
+```
+reg add "HKCU\Software\Microsoft\Print\UnifiedPrintDialog" /v "PreferLegacyPrintDialog" /d 1 /t REG_DWORD /f
+```
+
 ## Reservierten Speicher deaktivieren
 
 ```
