@@ -1,8 +1,6 @@
 # Windows-11-Tweaks
 Kleine Sammlung von Kommandos für jeden Tag, die man immer wieder sucht, vor allem jetzt in der Umstellungsphase.
 
-- [klassisches Kontextmenu](https://github.com/OnaldUck/headscale#klassisches_Kontextmenu)
-- 
 ## Upgrade
 Einschränkungen beseitigen. Am besten die beiden REG-Dateien speichern und in die ISO-Datei integrieren. Dann kann man sie währen des Installationsprozesses aktivieren z.B: `REG IMPORT ByPass.reg` oder `AllowTelemetry.reg`.
 
