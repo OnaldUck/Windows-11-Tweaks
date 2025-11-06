@@ -1,6 +1,11 @@
 # Windows-11-Tweaks
 Kleine Sammlung von Kommandos für jeden Tag, die man immer wieder sucht, vor allem jetzt in der Umstellungsphase.
 
+# Inhaltsverzeichnis
+
+- [Upgrade](https://github.com/OnaldUck/Windows-11-Tweaks.git#Upgrade)
+- [Upgrade](https://github.com/OnaldUck/Windows-11-Tweaks.git#Windows-11-ohne-Microsoft-Konto-einzurichten)
+
 ## Upgrade
 Einschränkungen beseitigen. Am besten die beiden REG-Dateien speichern und in die ISO-Datei integrieren. Dann kann man sie währen des Installationsprozesses aktivieren z.B: `REG IMPORT ByPass.reg` oder `AllowTelemetry.reg`.
 
