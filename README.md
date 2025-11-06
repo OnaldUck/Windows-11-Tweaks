@@ -5,12 +5,11 @@ Kleine Sammlung von Kommandos für jeden Tag, die man immer wieder sucht, vor al
 
 - [Upgrade](https://github.com/OnaldUck/Windows-11-Tweaks.git#Upgrade)
 - [Windows 11 ohne Microsoft-Konto einzurichten](https://github.com/OnaldUck/Windows-11-Tweaks.git#Windows-11-ohne-Microsoft-Konto-einzurichten)
-
 - [klassisches Kontextmenu](https://github.com/OnaldUck/Windows-11-Tweaks.git#klassisches-Kontextmenu)
 - [klassisches Druckdialog](https://github.com/OnaldUck/Windows-11-Tweaks.git#klassisches-Druckdialog)
-- - [Reservierten Speicher deaktivieren](https://github.com/OnaldUck/Windows-11-Tweaks.git#Reservierten-Speicher-deaktivieren)
-  - - [Empfohlen im Startmenü entfernen](https://github.com/OnaldUck/Windows-11-Tweaks.git#Empfohlen-im-Startmenü-entfernen)
-    - - [XBox Apps deinstallieren](https://github.com/OnaldUck/Windows-11-Tweaks.git#XBox-Apps-deinstallieren)
+- [Reservierten Speicher deaktivieren](https://github.com/OnaldUck/Windows-11-Tweaks.git#Reservierten-Speicher-deaktivieren)
+- [Empfohlen im Startmenü entfernen](https://github.com/OnaldUck/Windows-11-Tweaks.git#Empfohlen-im-Startmenü-entfernen)
+- [XBox Apps deinstallieren](https://github.com/OnaldUck/Windows-11-Tweaks.git#XBox-Apps-deinstallieren)
 
 ## Upgrade
 Einschränkungen beseitigen. Am besten die beiden REG-Dateien speichern und in die ISO-Datei integrieren. Dann kann man sie währen des Installationsprozesses aktivieren z.B: `REG IMPORT ByPass.reg` oder `AllowTelemetry.reg`.
