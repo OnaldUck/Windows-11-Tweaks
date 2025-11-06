@@ -4,7 +4,13 @@ Kleine Sammlung von Kommandos für jeden Tag, die man immer wieder sucht, vor al
 # Inhaltsverzeichnis
 
 - [Upgrade](https://github.com/OnaldUck/Windows-11-Tweaks.git#Upgrade)
-- [Upgrade](https://github.com/OnaldUck/Windows-11-Tweaks.git#Windows-11-ohne-Microsoft-Konto-einzurichten)
+- [Windows 11 ohne Microsoft-Konto einzurichten](https://github.com/OnaldUck/Windows-11-Tweaks.git#Windows-11-ohne-Microsoft-Konto-einzurichten)
+
+- [klassisches Kontextmenu](https://github.com/OnaldUck/Windows-11-Tweaks.git#klassisches-Kontextmenu)
+- [klassisches Druckdialog](https://github.com/OnaldUck/Windows-11-Tweaks.git#klassisches-Druckdialog)
+- - [Reservierten Speicher deaktivieren](https://github.com/OnaldUck/Windows-11-Tweaks.git#Reservierten-Speicher-deaktivieren)
+  - - [Empfohlen im Startmenü entfernen](https://github.com/OnaldUck/Windows-11-Tweaks.git#Empfohlen-im-Startmenü-entfernen)
+    - - [XBox Apps deinstallieren](https://github.com/OnaldUck/Windows-11-Tweaks.git#XBox-Apps-deinstallieren)
 
 ## Upgrade
 Einschränkungen beseitigen. Am besten die beiden REG-Dateien speichern und in die ISO-Datei integrieren. Dann kann man sie währen des Installationsprozesses aktivieren z.B: `REG IMPORT ByPass.reg` oder `AllowTelemetry.reg`.
@@ -93,3 +99,13 @@ Windows Registry Editor Version 5.00
 
 # Computerschutz deaktivieren #
 `PS1:Disable-ComputerRestore -Drive C:\`
+
+# XBox Apps deinstallieren #
+In der Powershell aknn den XBox Apps Systemweit deinstallieren
+
+```
+PS1:
+Get-AppxPackage -AllUsers *Microsoft.Xbox* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *Microsoft.XboxIdentityProvider* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *Microsoft.YourPhone* | Remove-AppxPackage
+```
